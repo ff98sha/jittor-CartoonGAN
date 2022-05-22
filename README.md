@@ -1,5 +1,5 @@
 # jittor-CartoonGAN
-Jittor implementation of CartoonGAN [1] (CVPR 2018), adpated from [pytorch-CartoonGAN]https://github.com/znxlwm/pytorch-CartoonGAN).
+[Jittor](https://github.com/Jittor/Jittor) implementation of CartoonGAN [1] (CVPR 2018), adpated from [pytorch-CartoonGAN](https://github.com/znxlwm/pytorch-CartoonGAN).
 
 ## Usage
 ### 1.Download VGG19
@@ -37,3 +37,7 @@ Tested in:
 * jittor 1.3.2.7
 * imageio 2.19.2
 
+## Reference
+[1] Chen, Yang, Yu-Kun Lai, and Yong-Jin Liu. "CartoonGAN: Generative Adversarial Networks for Photo Cartoonization." Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. 2018.
+
+(Full paper: http://openaccess.thecvf.com/content_cvpr_2018/papers/Chen_CartoonGAN_Generative_Adversarial_CVPR_2018_paper.pdf)
