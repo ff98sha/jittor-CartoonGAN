@@ -159,7 +159,7 @@ for epoch in range(args.train_epoch):
         train_hist['Gen_loss'].append(D_fake_loss.item())
         Con_losses.append(Con_loss.item())
         train_hist['Con_loss'].append(Con_loss.item())
-        G_optimizer.backward(Con_loss)
+        G_optimizer.backward(Gen_loss)
         G_optimizer.step()
     
     per_epoch_time = (time.time() - epoch_start_time)
